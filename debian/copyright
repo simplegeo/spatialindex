@@ -1,0 +1,57 @@
+This package was debianized by Francesco Paolo Lovergine <frankie@debian.org> on
+Wed, 27 May 2009 20:29:47 +0200.
+
+It was downloaded from http://trac.gispython.org/spatialindex
+
+Upstream Authors:
+
+		Marios Hadjieleftheriou <mhadji@gmail.com>
+		Howard Butler <hobu.inc@gmail.com>
+
+Copyright:
+
+    Copyright (C) 2002-2004 Navel Ltd.
+	Copyright (c) 1993 Martin Birgmeier.
+
+License:
+
+    This package is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+On Debian systems, the complete text of the GNU Lesser General
+Public License can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+The Debian packaging is:
+
+    Copyright (C) 2009 Francesco Paolo Lovergine <frankie@debian.org>
+
+and is licensed under the GPL version 3, 
+see `/usr/share/common-licenses/GPL-3'.
+
+------------------------------------------------------------------------------
+The file srand48.cc is copyrighted by Martin Birgmeier with the following
+license:
+
+/*
+* Copyright (c) 1993 Martin Birgmeier
+* All rights reserved.
+*
+* You may redistribute unmodified or modified versions of this source
+* code provided that the above copyright notice and this and the
+* following conditions are retained.
+*
+* This software is provided ``as is'', and comes with no warranties
+* of any kind. I shall in no event be liable for anything that happens
+* to anyone/anything when using this software.
+*/

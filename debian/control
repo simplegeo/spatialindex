@@ -1,0 +1,35 @@
+Source: spatialindex
+Priority: extra
+Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
+Uploaders: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>, Francesco Paolo Lovergine <frankie@debian.org>, Ian Eure <ian@simplegeo.com>
+Build-Depends: dpatch, debhelper (>= 7), autotools-dev
+Standards-Version: 3.8.4
+Section: science
+Homepage: http://trac.gispython.org/spatialindex
+Vcs-Browser: http://svn.debian.org/viewsvn/pkg-grass/packages/spatialindex/trunk
+Vcs-Svn: svn://svn.debian.org/svn/pkg-grass/packages/spatialindex/trunk
+
+Package: libspatialindex-dev
+Section: libdevel
+Architecture: any
+Depends: libspatialindex1 (= ${binary:Version})
+Description: A general framework for developing spatial indices
+ Spatialindex is a C++ library that provides a framework for
+ developing spatial indices. Currently it defines generic interfaces,
+ provides simple main memory and disk based storage managers and a
+ robust implementation of an R*-tree, an MVR-tree and a TPR-tree.
+ .
+ This package contains the SpatialIndex shared library.
+
+Package: libspatialindex1
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A general framework for developing spatial indices - development files
+ Spatialindex is a C++ library that provides a framework for
+ developing spatial indices. Currently it defines generic interfaces,
+ provides simple main memory and disk based storage managers and a
+ robust implementation of an R*-tree, an MVR-tree and a TPR-tree.
+ .
+ This package contains the development files to build third
+ parties programs.
